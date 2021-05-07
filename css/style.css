@@ -1,0 +1,12 @@
+input, select, button {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+input {    
+    width: 150px;
+}
+
+select, button {
+    width: 162px;    
+}
