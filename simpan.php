@@ -1,16 +1,6 @@
 <?php
 
-$host     = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'test';
-
-$conn = new mysqli($host, $username, $password, $database);
-
-if ($conn->connect_errno) {
-    echo 'Koneksi ke databae mengalami kegagalan';
-    exit();
-}
+include 'db.php';
 
 $bil1 = $_POST['bil1'];
 $bil2 = $_POST['bil2'];
