@@ -1,9 +1,14 @@
-<style>
-    table td {
-        padding: 5px;
-        border: solid 1px #ccc;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1><a href="history.php">Kalkulator :: History</a></h1>
+
 <?php
 
 include 'db.php';

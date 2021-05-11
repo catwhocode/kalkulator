@@ -12,4 +12,4 @@ if (!mysqli_query($conn, $sql)) {
 
 $conn->close();
 
-echo 'History berhasil dihapus';
+header("location:history.php");

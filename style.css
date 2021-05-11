@@ -3,10 +3,15 @@ input, select, button {
     margin-bottom: 5px;
 }
 
-input {    
+input {
     width: 150px;
 }
 
 select, button {
-    width: 162px;    
+    width: 162px;
+}
+
+table td {
+    padding: 5px;
+    border: solid 1px #ccc;
 }
